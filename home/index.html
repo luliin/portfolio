@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startsida</title>
+    <link rel="stylesheet" href="../css/home.css" />
+    <script src="../javascript/script.js"></script>
+  </head>
+  <body>
+    <div class="navigation-bar">
+      <div class="container">
+        <img
+          class="mobile-menu"
+          onclick="menu()"
+          id="mobile-icon"
+          src="../images/menu-small.svg"
+          alt="Open navigation"
+        />
+
+        <nav>
+          <img
+            id="mobile-exit"
+            class="mobile-menu-exit"
+            onclick="menu()"
+            src="../images/exit.svg"
+            alt="Close Navigation"
+          />
+          <ul class="primary-navigation">
+            <li class="current"><a href="index.html">Startsida</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </nav>
+        <a class="logo" href="index.html">Julia<span>Wigenstedt</span></a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="container">
+        <div class="left-column">
+          <p class="subhead">Javautvecklare</p>
+          <h1>Julia Wigenstedt</h1>
+          <div class="hero-container">
+            <img
+              class="profile-picture"
+              src="https://picsum.photos/300/500"
+              alt="Bild på Julia Wigenstedt"
+              title="Julia Wigenstedt"
+            />
+            <div class="info">
+              <h3>
+                Nyfiken och kreativ student på jakt efter nästa stora utmaning!
+                <br />
+                Jag söker praktikplats/LIA under hösten 2021.
+              </h3>
+              <p>
+                Under hösten 2020 började jag studera till Javautvecklare på
+                Nackademins Yrkeshögskoleutbildning. <br />
+                Även om min programmeringserfarenhet inte sträcker sig så långt
+                tillbaka rent historiskt, har jag med ett stort intresse och
+                naturlig fallenhet kommit en bra bit på vägen mot min nya
+                karriär. <br />
+                Jag skriver mest i Java, men har även erfarenhet av Kotlin,
+                MySQL, C#, Python, Javascript, HTML & CSS. <br />
+                På fritiden löser jag gärna coding challenges, sjunger, spelar
+                brädspel eller datorspel. <br />
+                Innan jag påbörjade mina studier har jag arbetat inom retail,
+                senast i rollen som butikschef för ett par GameStop-butiker och
+                det var i samband med att man valde att avveckla samtlig
+                verksamhet i Norden som jag hittade till Nackademin. <br />
+                Låter det intressant?
+              </p>
+              <a href="contact.html">Kontakta mig!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <hr />
+      <div class="footer-content">
+        <h3>
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </h3>
+        <div class="table">
+          <ul class="footer-list">
+            <li>Julia Wigenstedt</li>
+            <li>juliaemmamatilda@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

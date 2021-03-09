@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/portfolio.css" />
+    <script src="../javascript/script.js"></script>
+  </head>
+  <body>
+    <div class="navigation-bar">
+      <div class="container">
+        <img
+          id="mobile-icon"
+          onclick="menu()"
+          class="mobile-menu"
+          src="../images/menu-small.svg"
+          alt="Open navigation"
+        />
+
+        <nav>
+          <img
+            id="mobile-exit"
+            onclick="menu()"
+            class="mobile-menu-exit"
+            src="../images/exit.svg"
+            alt="Close Navigation"
+          />
+          <ul class="primary-navigation">
+            <li><a href="index.html">Startsida</a></li>
+            <li class="current"><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </nav>
+        <a class="logo" href="index.html">Julia<span>Wigenstedt</span></a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="container">
+        <div class="head-cta">
+          <p class="subhead">Julia Wigenstedt</p>
+          <h1>Portfolio</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div>
+        <p class="ingress">
+          Nyfiken på projekt jag har gjort eller varit delaktig i?
+        </p>
+        <ul class="project-list">
+          <li>
+            <a href="https://github.com/luliin/BestShoes" target="_blank"
+              ><img src="../images/Best-Shoes.png" alt="Best Shoes Thumbnail"
+            /></a>
+            <h4>
+              Best Shoes <br />
+              <span class="sub-heading"
+                >- En skobutik i Java/JavaFX med en lokal databas i MySQL</span
+              >
+            </h4>
+            <blockquote class="list-body">
+              I vår kurs i Databasteknik ingick en uppgift att utveckla en
+              databas för en skobutik och att skapa ett gränssnitt för "kunder"
+              där de skulle kunna beställa, recensera och läsa recensioner av
+              produkter.
+            </blockquote>
+          </li>
+          <li>
+            <img
+              src="../images/Tomtens-system.png"
+              alt="Tomteverkstaden Thumbnail"
+            />
+            <h4>
+              Tomteverkstaden<br />
+              <span class="sub-heading"
+                >- Ett program för att underlätta Jultomtens verksamhet</span
+              >
+            </h4>
+            <blockquote class="list-body">
+              Ett grafiskt program i JavaFX kopplat till en relationsdatabas i
+              MySQL. Jag har samlat flera mindre övningsuppgifter som ingått i
+              kursen Databasteknik och designat ett tillhörande grafiskt
+              gränssnitt.
+            </blockquote>
+          </li>
+          <li class="portfolio-list">
+            <a href="https://github.com/luliin/Tomteland" target="_blank"
+              ><img
+                class="smaller-pic"
+                src="../images/Tomtehierarkin.png"
+                alt=""
+            /></a>
+            <h4>
+              Tomteverkstadens hierarki<br />
+              <span class="sub-heading"
+                >- Funktionell programmering i Kotlin</span
+              >
+            </h4>
+            <blockquote class="list-body">
+              Examinationsuppgift i kursen Funktionell programmering. <br />
+              En övning i rekursion, skrivet i Kotlin.
+            </blockquote>
+          </li>
+          <li class="portfolio-list">
+            <a href="https://github.com/Grupp-9-OOAD/4inARow" target="_blank"
+              ><img class="smaller-pic" src="../images/4-i-rad.png" alt=""
+            /></a>
+            <h4>
+              Fyra i Rad
+              <span class="sub-heading">
+                <br />
+                - Java Swing</span
+              >
+            </h4>
+            <blockquote class="list-body">
+              Examinationsuppgift i kursen Objektorienterad Analys och Design
+            </blockquote>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="links">
+      <div class="contact-links">
+        <h3>Besök mig på:</h3>
+        <ul class="link-cta">
+          <li>
+            <div class="social-links">
+              <a href="https://github.com/luliin" target="_blank">
+                <img src="../images/github.svg" alt="github logo" />
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/julia-wigenstedt/"
+                target="_blank"
+                ><img src="../images/linkedin.svg" alt="LinkedIn logo" />
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="portfolio-section">
+      <div class="portfolio">
+        <h3>Fler projektbilder:</h3>
+        <div class="imageSlides">
+          <div class="number-text">1 / 5</div>
+          <img
+            class="resize"
+            src="../images/Best-Shoes.png"
+            alt="Bild på Best Shoes - skobutiken"
+          />
+        </div>
+
+        <div class="imageSlides">
+          <div class="number-text">2 / 5</div>
+          <img
+            class="resize"
+            src="../images/Tomtens-system.png"
+            alt="Bild på Tomteverkstadens personalsystem"
+          />
+        </div>
+
+        <div class="imageSlides">
+          <div class="number-text">3 / 5</div>
+          <img
+            class="resize"
+            src="../images/4-i-rad.png"
+            alt="Bild på 4 i rad"
+          />
+        </div>
+
+        <div class="imageSlides">
+          <div class="number-text">4 / 5</div>
+          <img
+            class="resize"
+            src="../images/15-spel-cut.png"
+            alt="Bild på 15-spelet"
+          />
+        </div>
+
+        <div class="imageSlides">
+          <div class="number-text">5 / 5</div>
+          <img
+            class="resize"
+            src="../images/15-spel2_cut.png"
+            alt="Bild på 15-spelet"
+          />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <img
+              class="image-cta cursor"
+              src="../images/Best-Shoes.png"
+              style="width: 100%"
+              onclick="currentSlide(1)"
+              alt="Best Shoes"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="image-cta cursor"
+              src="../images/Tomtens-system.png"
+              style="width: 100%"
+              onclick="currentSlide(2)"
+              alt="Tomtens system"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="image-cta cursor"
+              src="../images/4-i-rad-thumb.png"
+              style="width: 100%"
+              onclick="currentSlide(3)"
+              alt="4 i rad"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="image-cta cursor"
+              src="../images/15-spel_thumb.png"
+              style="width: 100%"
+              onclick="currentSlide(4)"
+              alt="15-spelet"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="image-cta cursor"
+              src="../images/15-spel2_thumb.png"
+              style="width: 100%"
+              onclick="currentSlide(5)"
+              alt="15-spelet bild 2"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <hr />
+      <div class="footer-content">
+        <h3>
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </h3>
+        <div class="table">
+          <ul class="footer-list">
+            <li>Julia Wigenstedt</li>
+            <li>juliaemmamatilda@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
